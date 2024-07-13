@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+header {
+    color: #C7511B;
+    font-size: 17px;
+    display: flex;
+    align-items: baseline;
+    gap: 550px;
+    margin-top: 30px;
+}
+
+.header_1{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.header_2{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.header_logo{
+    height: 40px;
+    width: 150px;
+}
+
+.header_pesquisa{
+    height: 30px;
+    width: 200px;
+}
+
+.header_icon{
+    height: 31px;
+    width: 31px;
+}
+
+.titulo{
+    color: #095F54;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.tela{
+    display: flex;
+    font-size: 20px;
+    align-items:last baseline;
+    gap: 150px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-bottom: 10%;
+}
+
+.livros{
+    display: flex;
+    flex-direction: column;
+}
+
+.livros_numeracao{
+    color: #095F54;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    text-align: center;
+}
+
+.livros_titulo{
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.livros_autor{
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.livros_tipo{
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.livros_preco{
+    color: #000;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    text-align: justify;
+}
+
+.livros_capa1{
+    height: 296px;
+    width: 216px;
+}
+
+.livros_capa2{
+    height: 240px;
+    width: 175px;
+}
+
+.livros_capa3{
+    height: 196px;
+    width: 143px;
+}
+
+.livros_corpo{
+    gap: 5px;
+}
+
+.livros_fav{
+    height: 23px;
+    width: 22px;
+}
+
+.livros_estrela{
+    height: 22px;
+    width: 121px;
+}
